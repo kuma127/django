@@ -14,3 +14,8 @@ Bugfixes
 
 * Fixed a regression in Django 2.2 where deprecation message crashes if
   ``Meta.ordering`` contains an expression (:ticket:`30463`).
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
